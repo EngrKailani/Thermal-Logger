@@ -30,7 +30,7 @@
 You need Windows, a compatible Python installation, a working Pico TC-08 with connected thermocouples, and a vendor driver compatible with the Python process.
 
 ```powershell
-git clone https://github.com/kalarcon775/Thermal-Logger.git
+git clone https://github.com/EngrKailani/Thermal-Logger.git
 cd Thermal-Logger
 py -m pip install openpyxl pyserial pywin32
 py main_ui.pyw
@@ -67,7 +67,7 @@ The sample number is **not an actual timestamp**. Do not infer exact time interv
 
 ## Recovery and engineering records
 
-See [Thermal Controller & Logger in the engineering portfolio](https://github.com/kalarcon775/kalarcon775.github.io/tree/main/projects/thermal) for an independently written architecture description, source review and verification plan.
+See [Thermal Controller & Logger in the engineering portfolio](https://github.com/EngrKailani/engrkailani.github.io/tree/main/projects/thermal) for an independently written architecture description, source review and verification plan.
 
 The surviving source is not evidence that every feature was revalidated during recovery. Raw company thermal data, internal reports, and undocumented test results are intentionally not reproduced.
 
